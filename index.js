@@ -1,8 +1,9 @@
 function takeANumber(katzDeliLine) {
+    let num = 0;
+    num++;
+    katzDeliLine.push(num);
 
-    katzDeliLine.push();
-
-    return `You are number ${katzDeliLine.length} in line.`
+    return `Your number is ${num}, your position in line is ${katzDeliLine.length}.`
 }
 
 function nowServing(katzDeliLine) {

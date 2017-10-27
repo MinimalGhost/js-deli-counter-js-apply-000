@@ -1,5 +1,3 @@
-let drum = 0;
-
 function takeANumber(katzDeliLine) {
 
     katzDeliLine.push();
